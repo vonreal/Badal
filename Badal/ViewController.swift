@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("깃허브 테스트용")
     }
 
 
