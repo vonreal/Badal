@@ -17,6 +17,7 @@
 		7648B8F32873DAAF008CE4F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7648B8F22873DAAF008CE4F4 /* SecondViewController.swift */; };
 		76BA8C8F2877B5EF00C7201B /* githubTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BA8C8E2877B5EF00C7201B /* githubTestViewController.swift */; };
 		76BF1954287A6EBB003898DE /* kakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF1953287A6EBB003898DE /* kakaoProfileViewController.swift */; };
+		76BF1956287A87A3003898DE /* melonMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF1955287A87A3003898DE /* melonMusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7648B8F22873DAAF008CE4F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		76BA8C8E2877B5EF00C7201B /* githubTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubTestViewController.swift; sourceTree = "<group>"; };
 		76BF1953287A6EBB003898DE /* kakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoProfileViewController.swift; sourceTree = "<group>"; };
+		76BF1955287A87A3003898DE /* melonMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melonMusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				76BA8C8E2877B5EF00C7201B /* githubTestViewController.swift */,
 				7602E3252872B5010086B4FE /* Main.storyboard */,
 				76BF1953287A6EBB003898DE /* kakaoProfileViewController.swift */,
+				76BF1955287A87A3003898DE /* melonMusicViewController.swift */,
 				7648B8F02873DA38008CE4F4 /* FirstViewController.swift */,
 				7648B8F22873DAAF008CE4F4 /* SecondViewController.swift */,
 				7602E3282872B5020086B4FE /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 				76BA8C8F2877B5EF00C7201B /* githubTestViewController.swift in Sources */,
 				7602E3202872B5010086B4FE /* AppDelegate.swift in Sources */,
 				7602E3222872B5010086B4FE /* SceneDelegate.swift in Sources */,
+				76BF1956287A87A3003898DE /* melonMusicViewController.swift in Sources */,
 				7648B8F32873DAAF008CE4F4 /* SecondViewController.swift in Sources */,
 				7648B8F12873DA38008CE4F4 /* FirstViewController.swift in Sources */,
 				76BF1954287A6EBB003898DE /* kakaoProfileViewController.swift in Sources */,
