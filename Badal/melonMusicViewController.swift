@@ -15,6 +15,7 @@ class melonMusicViewController: UIViewController {
     
     @IBOutlet weak var albumImageView: UIImageView!
     
+    @IBOutlet weak var lyricsLabel: UILabel!
     @IBOutlet weak var recommedButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,8 @@ class melonMusicViewController: UIViewController {
         albumImageView.layer.cornerRadius = 5
         
         designButton(recommedButton)
+        
+        lyricsLabel.text = "달이 익어가니 서둘러 젊은 피야\n 민들레 한 송이 들고"
 
     }
     

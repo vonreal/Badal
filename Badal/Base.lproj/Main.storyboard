@@ -1040,6 +1040,21 @@
             </objects>
             <point key="canvasLocation" x="2503" y="802"/>
         </scene>
+        <!--Baemin Main View Controller-->
+        <scene sceneID="cV9-rj-NSA">
+            <objects>
+                <viewController id="xxZ-vS-IqZ" customClass="baeminMainViewController" customModule="Badal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cPZ-3g-9yw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8Ad-OG-oAi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ukZ-4d-cd6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4006" y="138"/>
+        </scene>
         <!--Melon Music View Controller-->
         <scene sceneID="5V6-8W-YEe">
             <objects>
@@ -1143,7 +1158,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lorem Ipsum is simply dummy text of the printing andtypesetting industry." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDg-Bh-bo3">
-                                <rect key="frame" x="30" y="657" width="354" height="38.5"/>
+                                <rect key="frame" x="60" y="657" width="294" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1220,11 +1235,11 @@
                             <constraint firstItem="8UD-Wl-580" firstAttribute="top" secondItem="wC4-Yy-FZj" secondAttribute="top" constant="10" id="Wxz-Yw-RkF"/>
                             <constraint firstItem="my6-mL-tDj" firstAttribute="top" secondItem="i9Z-fG-E2S" secondAttribute="bottom" constant="5" id="Z0J-CA-Lrq"/>
                             <constraint firstItem="i9Z-fG-E2S" firstAttribute="trailing" secondItem="wC4-Yy-FZj" secondAttribute="trailing" id="bLw-l2-Z5n"/>
-                            <constraint firstAttribute="trailing" secondItem="VDg-Bh-bo3" secondAttribute="trailing" constant="30" id="ghK-gZ-3CD"/>
+                            <constraint firstAttribute="trailing" secondItem="VDg-Bh-bo3" secondAttribute="trailing" constant="60" id="ghK-gZ-3CD"/>
                             <constraint firstItem="VDg-Bh-bo3" firstAttribute="centerX" secondItem="yVq-7R-rEn" secondAttribute="centerX" id="j86-IV-GV1"/>
                             <constraint firstItem="j4P-3g-42c" firstAttribute="top" secondItem="VDg-Bh-bo3" secondAttribute="bottom" constant="80" id="kw4-UU-bs2"/>
                             <constraint firstItem="8UD-Wl-580" firstAttribute="centerX" secondItem="yVq-7R-rEn" secondAttribute="centerX" id="nwI-tA-yfj"/>
-                            <constraint firstItem="VDg-Bh-bo3" firstAttribute="leading" secondItem="yVq-7R-rEn" secondAttribute="leading" constant="30" id="oir-zi-WGB"/>
+                            <constraint firstItem="VDg-Bh-bo3" firstAttribute="leading" secondItem="yVq-7R-rEn" secondAttribute="leading" constant="60" id="oir-zi-WGB"/>
                             <constraint firstItem="VDg-Bh-bo3" firstAttribute="top" secondItem="3gm-wX-wd2" secondAttribute="bottom" constant="80" id="rmB-oE-ebN"/>
                         </constraints>
                     </view>
@@ -1480,11 +1495,11 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing andtypesetting industry." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="c9A-i5-6Qs">
-                                                <rect key="frame" x="30" y="444" width="361" height="40"/>
+                                                <rect key="frame" x="50" y="444" width="314" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="fjH-vo-wgX"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1495,7 +1510,7 @@
                                             <constraint firstItem="ohV-e5-2hS" firstAttribute="leading" secondItem="gh8-ze-3QL" secondAttribute="leading" constant="10" id="1Nd-dD-iMZ"/>
                                             <constraint firstAttribute="trailing" secondItem="Ar3-Cr-Bta" secondAttribute="trailing" constant="30" id="5zL-Wm-5dh"/>
                                             <constraint firstItem="h6O-zq-0EF" firstAttribute="top" secondItem="Ar3-Cr-Bta" secondAttribute="bottom" constant="10" id="AGG-rM-bpR"/>
-                                            <constraint firstItem="c9A-i5-6Qs" firstAttribute="leading" secondItem="gh8-ze-3QL" secondAttribute="leading" constant="30" id="FhO-PH-RgQ"/>
+                                            <constraint firstItem="c9A-i5-6Qs" firstAttribute="leading" secondItem="gh8-ze-3QL" secondAttribute="leading" constant="50" id="FhO-PH-RgQ"/>
                                             <constraint firstAttribute="trailing" secondItem="wCc-6z-9MY" secondAttribute="trailing" constant="10" id="KIR-Sa-hMV"/>
                                             <constraint firstItem="Ar3-Cr-Bta" firstAttribute="top" secondItem="gh8-ze-3QL" secondAttribute="top" id="Ni0-e4-NFh"/>
                                             <constraint firstItem="wCc-6z-9MY" firstAttribute="top" secondItem="ohV-e5-2hS" secondAttribute="bottom" constant="15" id="OQl-Q1-NxJ"/>
@@ -1504,7 +1519,7 @@
                                             <constraint firstItem="c9A-i5-6Qs" firstAttribute="top" secondItem="h6O-zq-0EF" secondAttribute="bottom" constant="50" id="U5r-Rz-WMQ"/>
                                             <constraint firstAttribute="trailing" secondItem="h6O-zq-0EF" secondAttribute="trailing" constant="30" id="UNS-sI-Si4"/>
                                             <constraint firstAttribute="bottom" secondItem="wCc-6z-9MY" secondAttribute="bottom" constant="10" id="gFD-oR-swg"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c9A-i5-6Qs" secondAttribute="trailing" symbolic="YES" id="qH7-cM-EbF"/>
+                                            <constraint firstAttribute="trailing" secondItem="c9A-i5-6Qs" secondAttribute="trailing" constant="50" id="qH7-cM-EbF"/>
                                             <constraint firstAttribute="trailing" secondItem="ohV-e5-2hS" secondAttribute="trailing" constant="10" id="rVQ-No-y4p"/>
                                             <constraint firstItem="Ar3-Cr-Bta" firstAttribute="leading" secondItem="gh8-ze-3QL" secondAttribute="leading" constant="30" id="xcR-0N-cZp"/>
                                         </constraints>
@@ -1535,6 +1550,7 @@
                     </view>
                     <connections>
                         <outlet property="albumImageView" destination="Ar3-Cr-Bta" id="mAW-QS-FMu"/>
+                        <outlet property="lyricsLabel" destination="c9A-i5-6Qs" id="mbd-b1-XXm"/>
                         <outlet property="recommedButton" destination="C6y-6F-VVW" id="bHn-K5-d8s"/>
                         <outlet property="singerLabel" destination="oK6-ih-jug" id="eMH-Ez-fpH"/>
                         <outlet property="titleButton" destination="dEe-w3-RPK" id="NuN-EM-XCf"/>
